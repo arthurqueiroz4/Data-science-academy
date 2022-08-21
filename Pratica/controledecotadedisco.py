@@ -64,3 +64,4 @@ print()
 for y,x in enumerate(demonstracao):
     print(f'{y+1:<5}{x[0]:<15} {x[1]:>8.2f} MB  {porcent[y]:>15.2f}')
 print(f'\nEspaco total ocupado: {somadorMB:.2f} MB\nEspaco medio utilizado: {somadorMB/6:.2f} MB')
+#
