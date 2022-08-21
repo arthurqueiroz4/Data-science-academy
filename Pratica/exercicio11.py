@@ -12,6 +12,6 @@ class Quadrado():
   def setLado(self,novolado):
     self.lado = novolado
 
-
+#Instanciando um objeto
 qdr = Quadrado(lado = 7)
 print('O lado do quadrado vale ',qdr.lado, '\nsua área vale ', qdr.area(),'\ne seu perimetro vale',qdr.perimetro(),'.')
