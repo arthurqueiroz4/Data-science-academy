@@ -20,7 +20,7 @@ lst1 = []
 for x in lst:
     lst1.append(x.split(' '))
 lst2 = []
-
+print(lst1)
 #Retirando os espaços em brancos
 for i in range(0,6):
     tirarespaço(lst1[i],lst2)
